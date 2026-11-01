@@ -1,0 +1,32 @@
+{
+  "name": "pink-petal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pink Petal \u2014 a mini photobooth that runs entirely in your browser.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "preview": "npx --yes serve out"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "lucide-react": "^1.66.0",
+    "next": "^15.5.28",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}
